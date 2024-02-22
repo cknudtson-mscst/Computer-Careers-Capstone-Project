@@ -31,7 +31,6 @@ namespace FinalConnections
                                 System.Console.WriteLine("CPU Name: " + reader.GetString(0));
                                 System.Console.WriteLine("CPU Brand: " + reader.GetString(1));
                                 System.Console.WriteLine("CPU Socket: " + reader.GetString(2));
-                                System.Console.WriteLine("CPU Core Count: " + reader.GetString(3));
                             }
                         }
                     }
