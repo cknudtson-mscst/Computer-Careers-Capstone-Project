@@ -1,0 +1,15 @@
+﻿p {
+    font-size: 20px;
+}
+
+#policyDiv {
+    margin-left: 2.75rem;
+}
+
+/*Selects the first <p> under  in ../HTML/Home.html*/
+#policyDiv p:first-of-type {
+    padding-top: 50px;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}

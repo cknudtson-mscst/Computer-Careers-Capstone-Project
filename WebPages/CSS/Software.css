@@ -1,0 +1,45 @@
+﻿#currentNav {
+    padding-top: 10px;
+}
+
+#currentNav p {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 3.5rem;
+}
+
+#currentNav p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#currentNav p a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*CSS table set-up*/
+.divider {
+    width:49%;
+    display: inline-block;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+}
+
+td {
+    border: 2px solid black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid black;
+    font-size: 28px;
+    padding: 20px 10px;
+    text-align: center;
+}

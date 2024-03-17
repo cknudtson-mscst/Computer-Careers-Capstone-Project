@@ -62,10 +62,19 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Home.html" />
+    <Content Include="WebPages\CSS\Default.css" />
+    <Content Include="WebPages\CSS\Hardware.css" />
+    <Content Include="WebPages\CSS\Login.css" />
+    <Content Include="WebPages\CSS\Software.css" />
+    <Content Include="WebPages\HTML\Hardware.html" />
+    <Content Include="WebPages\CSS\Home.css" />
+    <Content Include="WebPages\HTML\Home.html" />
+    <Content Include="WebPages\HTML\Log In.html" />
+    <Content Include="WebPages\HTML\Login.html" />
+    <Content Include="WebPages\HTML\Software.html" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CPUFinalConnections.cs" />
+    <Compile Include="CodeFiles\CPUFinalConnections.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

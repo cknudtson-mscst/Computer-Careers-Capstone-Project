@@ -1,0 +1,21 @@
+﻿h1 {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    width: 90px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+/*For company policy label to ensure it has enough width*/
+label:last-of-type{
+    width: auto;
+}
+
+button {
+    border: 3px solid black;
+    border-radius: 10px;
+}

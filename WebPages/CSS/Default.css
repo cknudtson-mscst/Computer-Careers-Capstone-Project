@@ -1,0 +1,15 @@
+﻿/*Sets up the navigation for each page that requires it*/
+nav a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 2.75rem;
+}
+
+nav div a {
+    display: inline-block;
+}
+
+nav div a:last-of-type {
+    margin-right: 1.75rem;
+}
