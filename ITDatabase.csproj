@@ -69,7 +69,10 @@
     <Content Include="WebPages\HTML\Hardware.html" />
     <Content Include="WebPages\CSS\Home.css" />
     <Content Include="WebPages\HTML\Home.html" />
-    <Content Include="WebPages\HTML\Log In.html" />
+    <Content Include="WebPages\HTML\CPU.html" />
+    <Content Include="WebPages\HTML\GPU.html" />
+    <Content Include="WebPages\HTML\Motherboard.html" />
+    <Content Include="WebPages\HTML\RAM.html" />
     <Content Include="WebPages\HTML\Login.html" />
     <Content Include="WebPages\HTML\Software.html" />
   </ItemGroup>

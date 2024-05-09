@@ -8,7 +8,7 @@ namespace FinalConnections
         static async Task Main(string[] args)
         {
             // Connection string and pooling
-            string connectionString = "Server=(localdb)\\ProjectsV13; Database=IT Support; User Id=TEST; Password=Passw0rd; Connection Timeout = 5;Min Pool Size=5; Max Pool Size=50;";
+            string connectionString = "Server=backendsupport24.database.windows.net; Database=ITSupport; User Id=ITHighAdmin; Password=Truck3773$Chris9903; Connection Timeout = 5;Min Pool Size=5; Max Pool Size=50;";
 
             try
             {
@@ -19,7 +19,7 @@ namespace FinalConnections
                     await connection.OpenAsync();
 
                     // Execute a query
-                    string query = "SELECT * FROM CPU_ID"; // Replace with your desired query
+                    string query = "SELECT * FROM CPU_Info"; // Replace with your desired query
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         using (SqlDataReader reader = await command.ExecuteReaderAsync())
@@ -28,9 +28,10 @@ namespace FinalConnections
                             while (reader.Read())
                             {
                                 //Testing each line to make sure it is read; Planned on making this single string
-                                System.Console.WriteLine("CPU Name: " + reader.GetString(0));
-                                System.Console.WriteLine("CPU Brand: " + reader.GetString(1));
-                                System.Console.WriteLine("CPU Socket: " + reader.GetString(2));
+                                System.Console.WriteLine(reader.GetInt32(0));
+                                System.Console.WriteLine(reader.GetString(1));
+                                System.Console.WriteLine(reader.GetString(2));
+                                System.Console.WriteLine(reader.GetInt32(3));
                             }
                         }
                     }
